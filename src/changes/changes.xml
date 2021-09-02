@@ -30,6 +30,9 @@
 			<action dev="ZuHam" type="add">
 				Improved error messages.
 			</action>
+			<action dev="ZuHam" type="fix">
+				Remove seperators in ISBN
+			</action>
 		</release>
 	</body>
 </document>
