@@ -34,5 +34,15 @@
 				Remove seperators in ISBN
 			</action>
 		</release>
+
+		<release version="1.2.0" date="2021-09-02"
+			description="Healthier data | Avoid data chaos">
+			<action dev="ZuHam" type="add">
+				Check year in range 1000-2025
+			</action>
+			<action dev="ZuHam" type="update">
+				Update Spring Boot version
+			</action>
+		</release>
 	</body>
 </document>
