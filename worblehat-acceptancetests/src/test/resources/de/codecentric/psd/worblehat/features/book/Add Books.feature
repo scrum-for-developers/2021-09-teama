@@ -9,11 +9,12 @@ Feature: Adding a new book to the library
         Then the booklist shows that book with "<property>" as "<value>"
 
         Examples:
-            | property | value           |
-            | title    | Sourcery        |
-            | author   | Terry Pratchett |
-            | year     | 1989            |
-            | isbn     | 123456789X      |
+            | property | value             |
+            | title    | Sourcery          |
+            | author   | Terry Pratchett   |
+            | year     | 1989              |
+            | isbn     | 123456789X        |
+            | isbn     | 9780123456472     |
 
     Scenario: Adding books with special characters
 

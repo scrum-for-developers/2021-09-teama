@@ -44,5 +44,18 @@
 				Update Spring Boot version
 			</action>
 		</release>
+
+		<release version="1.3.0" date="2021-09-03"
+			description="More ISBN functionality">
+			<action dev="ZuHam" type="add">
+				Check ISBN whitespaces and handle book with different editions
+			</action>
+			<action dev="ZuHam" type="add">
+				Handle book with different editions
+			</action>
+			<action dev="ZuHam" type="add">
+				Accept ISBN-13
+			</action>
+		</release>
 	</body>
 </document>
