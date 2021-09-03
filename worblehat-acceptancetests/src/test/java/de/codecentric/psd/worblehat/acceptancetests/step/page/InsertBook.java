@@ -38,7 +38,7 @@ public class InsertBook {
     seleniumAdapter.gotoPage(Page.INSERTBOOKS);
     fillInsertBookForm(title, author, edition, isbn, year);
     seleniumAdapter.clickOnPageElement(PageElement.ADDBOOKBUTTON);
-    context.put("LAST_INSERTED_BOOK_ISBN", isbn);
+    context.put("LAST_INSERTED_BOOK_ISBN", isbn.trim());
   }
 
   @When("a librarian adds a random book and the {string} of that book is {string}")

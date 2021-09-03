@@ -24,6 +24,13 @@ public class BookDataFormDataTest {
   }
 
   @Test
+  public void shouldTrimIsbn() {
+    BookDataFormData bookForm = new BookDataFormData();
+    bookForm.setIsbn("  11111111111  ");
+    assertThat(bookForm.getIsbn(), is("11111111111"));
+  }
+
+  @Test
   public void shouldDenyFutureDates() {
     BookDataFormData bookForm = new BookDataFormData();
     bookForm.setYearOfPublication("2030");

@@ -20,7 +20,7 @@ public class BookBorrowFormData {
   }
 
   public void setIsbn(String isbn) {
-    this.isbn = isbn;
+    this.isbn = isbn.trim();
   }
 
   public String getEmail() {
